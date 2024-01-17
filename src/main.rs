@@ -1,9 +1,6 @@
 use clap::{arg, builder, command};
-use pcap;
-
-use std::env;
-use std::process::exit;
-use std::{process::ExitCode, u8};
+use pcap::*;
+use std::{env, process::exit, process::ExitCode, u8};
 
 /// Formal arguments the program can recognize
 struct FormalArgs {}
