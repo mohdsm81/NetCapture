@@ -1,7 +1,6 @@
 use clap::{arg, builder, command};
 use pcap;
 
-use pcap::Capture;
 use std::env;
 use std::process::exit;
 use std::{process::ExitCode, u8};
@@ -39,5 +38,5 @@ fn main() {
     // chain function calls here.
     // Within each function, handel errors, exit code related to their function
 
-    exit(ExitCode::SUCCESS);
+    exit(0);
 }
