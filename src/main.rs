@@ -10,7 +10,7 @@ use std::{
 
 /// User provided command line arguments, and that are parsed successfully
 struct CLIArgs {
-    port: u8,
+    port: u16,
     address_v4: Ipv4Addr,
     address_v6: Ipv6Addr,
 }
